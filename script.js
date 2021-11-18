@@ -12,6 +12,7 @@ document
     for (let counter = 0; counter < allNames.length; counter++) {
       const currentName = allNames[counter].textContent.toLowerCase();
 
+      //includes() compares users to search term
       if (currentName.includes(searchQuery)) {
         allNames[counter].style.display = 'block';
       } else {
