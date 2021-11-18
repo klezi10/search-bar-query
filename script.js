@@ -1,8 +1,7 @@
 // grab search input value and console log it - add eventlistener, keyup
 // show whole list
 // loop through list
-// search name through loop list using includes()
-// show searched users, if yes, display block. if no, display none.
+// search name through loop list using includes() - if yes, display block. if no, display none.
 
 document
   .getElementById('searchInput')
